@@ -1,21 +1,19 @@
 const express = require('express');
+const data = require('./data.json');
 const router = express.Router();
 
-
-router.get('/', (req, res, next) => {
-    res.render('index', data.projects);
+router.get('/', (req, res) => {
+    res.locals.projects = data.projects;
+    res.render('index');
 });
 
-router.get('/about', (req, res, next) => {
+router.get('/about', (req, res) => {
     res.render('about');
 });
 
 router.get('/project/:id', (req, res, next) => {
-    
-    const {id} = req.params;
-
-    const templateData = {};
-    res.render('project', templateData);
+    res.locals.project = data.projects[req.params.id];
+    res.render('project');
 });
 
 module.exports = router;
