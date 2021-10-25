@@ -7,25 +7,25 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://heeyupchung.github.io/A-Random-Quote-Generator/",
             "github_link": "https://github.com/heeyupchung/A-Random-Quote-Generator",
-            "image_urls": ""
+            "image_urls": ["/static/images/A-Random-Quote-Generator.png", "/static/images/A-Random-Quote-Generator-2.png", "/static/images/A-Random-Quote-Generator-3.png", "/static/images/A-Random-Quote-Generator-4.png"]
         },
         {
             "id": 1,
             "project_name": "Data Pagination and Filtering",
-            "description": "",
+            "description": "An app that displays 42 students along with their information, and uses pagination to search for specific students.",
             "technologies": ["HTML", "CSS", "JavaScript","jQuery"],
             "live_link": "https://heeyupchung.github.io/Data-Pagination-and-Filtering/",
             "github_link": "https://github.com/heeyupchung/Data-Pagination-and-Filtering",
-            "image_urls": ""
+            "image_urls": ["/static/images/Data-Pagination-And-Filtering.png", "/static/images/Data-Pagination-And-Filtering-2.png", "/static/images/Data-Pagination-And-Filtering-3.png", "/static/images/Data-Pagination-And-Filtering-4.png"]
         },
         {
             "id": 2,
             "project_name": "Interactive Form",
-            "description": "An app that displays 42 students along with their information, and uses pagination to search for specific students.",
+            "description": "An interactive form for a fictional Full Stack conference, where users can enter their information and select different options for purchases.",
             "technologies": ["HTML", "CSS", "JavaScript","jQuery"],
             "live_link": "https://heeyupchung.github.io/Interactive-Form/",
             "github_link": "https://github.com/heeyupchung/Interactive-Form",
-            "image_urls": ""
+            "image_urls": ["/static/images/Interactive-Form.png", "/static/images/Interactive-Form-2.png", "/static/images/Interactive-Form-3.png", "/static/images/Interactive-Form-4.png"]
         },
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript","jQuery"],
             "live_link": "https://heeyupchung.github.io/OOP-Game-Show-App/",
             "github_link": "https://github.com/heeyupchung/OOP-Game-Show-App",
-            "image_urls": ""
+            "image_urls": ["/static/images/OOP-Game-Show-App.png", "/static/images/OOP-Game-Show-App-2.png", "/static/images/OOP-Game-Show-App-3.png", "/static/images/OOP-Game-Show-App-4.png"]
         },
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript","jQuery", "AJAX"],
             "live_link": "https://heeyupchung.github.io/Public-API-Requests/",
             "github_link": "https://github.com/heeyupchung/Public-API-Requests",
-            "image_urls": ""
+            "image_urls": ["/static/images/Public-API-Requests.png", "/static/images/Public-API-Requests-2.png", "/static/images/Public-API-Requests-3.png", "/static/images/Public-API-Requests-4.png"]
         }
     ]
 }

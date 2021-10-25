@@ -7,6 +7,7 @@ const errorHandlers = require('./errorHandlers.js');
 // Instantiate Express app
 const app = express();
 app.set('view engine', 'pug');
+
 app.use(routes);
 app.use('/static', express.static('public'));
 
